@@ -1,35 +1,57 @@
-skc_rahul_pythonTutor
-Python Adventure - AI-Powered Python Tutor for Kids
-Welcome to Python Adventure! This project is an AI-powered Python tutor designed to help children learn basic Python coding in a fun and interactive way. The application features customizable tutor characters, engaging lessons, and interactive homework assignments.
+# Python Adventure - AI-Powered Python Tutor for Kids
 
-Features
-User-Friendly Interface: A clear, engaging, and child-friendly interface.
-Customizable Tutor Characters: Kids can choose their favorite character as their Python tutor.
-Interactive Lessons: Engaging Python coding lessons with real-time feedback.
-Homework Assignments: Interactive exercises at the end of each lesson to reinforce learning.
-Getting Started
-Prerequisites
-Node.js (v14 or higher)
-Git
-Installation
-Clone the repository:
+Welcome to **Python Adventure**! This project is an AI-powered Python tutor designed to help children learn basic Python coding in a fun and interactive way. The application features customizable tutor characters, engaging lessons, and interactive homework assignments.
 
-git clone https://github.com/your-username/python-tutor-project.git
-cd python-tutor-project
-Install dependencies:
+## Features
 
-npm install
-Start the development server:
+- **User-Friendly Interface:** A clear, engaging, and child-friendly interface.
+- **Customizable Tutor Characters:** Kids can choose their favorite character as their Python tutor.
+- **Interactive Lessons:** Engaging Python coding lessons with real-time feedback.
+- **Homework Assignments:** Interactive exercises at the end of each lesson to reinforce learning.
 
-npm run dev
-Open your browser and navigate to:
+## Getting Started
 
-http://localhost:3000
-Configuring Your API Key
-Navigate to the Settings page:
-Enter your OpenAI API key in the input field.
-Click Save to store the API key in local storage.
-File Structure
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [Git](https://git-scm.com/)
+
+### Installation
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/your-username/python-tutor-project.git
+    cd python-tutor-project
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3. **Start the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+4. **Open your browser and navigate to:**
+
+    ```bash
+    http://localhost:3000
+    ```
+
+## Configuring Your API Key
+
+1. **Navigate to the Settings page:**
+   - Enter your OpenAI API key in the input field.
+   - Click **Save** to store the API key in local storage.
+
+## File Structure
+
+```plaintext
 python-tutor-project/
 ├── node_modules/
 ├── public/
